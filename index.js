@@ -5,7 +5,7 @@ import BulletController from "./BulletController.js";
 import EnemyBulletController from "./EnemyBulletController.js";
 import explosion from "./explosion.js";
 
-alert("Space Shooter Game\nInstructions: Use keys W,A,S,D to move and space bar to shoot, enjoy!!!")
+alert("Space Shooter Game\nInstructions: Use arrow keys to move and space bar to shoot, enjoy!!!")
 const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
 
